@@ -10,16 +10,16 @@ package restaurantjavaapplicationsqlite;
  */
     
 import com.sun.jna.Pointer;
-        import com.sun.jna.platform.win32.Kernel32;
-    import com.sun.jna.platform.win32.User32;
-    import com.sun.jna.platform.win32.WinDef.HMODULE;
+import com.sun.jna.platform.win32.Kernel32;
+import com.sun.jna.platform.win32.User32;
+import com.sun.jna.platform.win32.WinDef.HMODULE;
 import com.sun.jna.platform.win32.WinDef.LPARAM;
-    import com.sun.jna.platform.win32.WinDef.LRESULT;
-    import com.sun.jna.platform.win32.WinDef.WPARAM;
-    import com.sun.jna.platform.win32.WinUser.HHOOK;
-    import com.sun.jna.platform.win32.WinUser.KBDLLHOOKSTRUCT;
-    import com.sun.jna.platform.win32.WinUser.LowLevelKeyboardProc;
-    import com.sun.jna.platform.win32.WinUser.MSG;
+import com.sun.jna.platform.win32.WinDef.LRESULT;
+import com.sun.jna.platform.win32.WinDef.WPARAM;
+import com.sun.jna.platform.win32.WinUser.HHOOK;
+import com.sun.jna.platform.win32.WinUser.KBDLLHOOKSTRUCT;
+import com.sun.jna.platform.win32.WinUser.LowLevelKeyboardProc;
+import com.sun.jna.platform.win32.WinUser.MSG;
     
 
     public class KeyHook {
