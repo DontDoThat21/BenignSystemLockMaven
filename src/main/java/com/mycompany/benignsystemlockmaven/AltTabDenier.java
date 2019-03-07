@@ -2,7 +2,7 @@
 Unliscensed code partially used from user Martijn Courteaux from stackoverflow
 https://stackoverflow.com/questions/6127709/remove-the-possibility-of-using-alt-f4-and-alt-tab-in-java-gui
  */
-package restaurantjavaapplicationsqlite;
+package com.mycompany.benignsystemlockmaven;
 
 import java.awt.Robot;
 import java.awt.event.KeyEvent;

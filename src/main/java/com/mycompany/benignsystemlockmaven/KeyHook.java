@@ -2,7 +2,7 @@
 Unliscensed code use from Glaucio Polzin de Oliveira on Stack Overflow
 https://stackoverflow.com/questions/2486167/is-it-is-possible-to-disable-the-windows-keys-using-java
  */
-package restaurantjavaapplicationsqlite;
+package com.mycompany.benignsystemlockmaven;
 
 /**
  *
@@ -27,6 +27,7 @@ import com.sun.jna.platform.win32.WinUser.MSG;
         private static LowLevelKeyboardProc keyboardHook;
         private static User32 lib;
 
+        // Blocks windows key input.
         public static void blockWindowsKey() {
             if (isWindows()) {
                 new Thread(new Runnable() {
