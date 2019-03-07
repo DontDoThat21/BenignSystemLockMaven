@@ -152,7 +152,6 @@ public class LoginFrame extends javax.swing.JFrame {
         jTextField1.setText("k");
         for(int i = 0; i < 10; i++)        
         {
-            toFront();
             try {
                 Thread.sleep(1000);
             } 
